@@ -4,6 +4,9 @@
 
 It teaches you how to touch-type and improve your typing speed. There are a plenty of lessons ranging from beginner to advanced including one for programmers (`(p) series`) and special keyboards (Numpad `(n) series`, Colemak `(c series)`)
 
+![webtypist2](https://github.com/arshxyz/webtypist/assets/23417273/fe40ac93-44b4-4ca2-97da-15d3a590ddc2)
+
+
 Give it a try here - [webtypist.vercel.app](https://webtypist.vercel.app)
 
 Webtypist is inspired by GNU typist (`gtypist`) and is capable of parsing and running `.typ` lessons built for GNU Typist. In other words, you can call it gtypist for the web.
