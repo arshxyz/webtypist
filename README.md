@@ -35,5 +35,6 @@ You can contribute lessons or code by submitting a pull request. Support for non
 
 ## Thanks
 - GNU Typist authors and contributors for the [original `gtypist` program](https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html), through which I learnt to type
+- [Daniel Sockwell](https://codesections.com/) for authoring the `(p) series` lesson
 
 Happy typing!
