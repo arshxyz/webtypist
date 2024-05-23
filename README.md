@@ -20,7 +20,9 @@ Webtypist is inspired by GNU typist (`gtypist`) and is capable of parsing and ru
 - Dvorak (d) Series
 
 ## How do I make my own lesson?
-All lessons on webtypist are GNU typist `.typ` files which are inside the `/public` folder of this repository. Have a look at `demo.typ` to understand the basic commands used. Open [webtypist](https://webtypist.vercel.app) and click the "Make your own lesson" button to see how `demo.typ` runs
+All lessons on webtypist are GNU typist `.typ` files which are inside the `/public` folder of this repository. Have a look at `demo.typ` to understand the basic commands used. Open [webtypist](https://webtypist.vercel.app) and click the "Make your own lesson" button to see how `demo.typ` runs.
+
+To learn more check the [GNU Typist Manual](https://www.gnu.org/software/gtypist/doc/gtypist.html#Script-file-commands)
 
 
 
