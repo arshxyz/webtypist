@@ -65,9 +65,6 @@ I:First, a quick warm-up.
 *:_S_R_L2
 S:The quick brown fox jumped over the lazy dogs.
 
-I:Once more:
-*:_S_R_L3
-S:The quick brown fox jumped over the lazy dogs.
 
 I:If the cursor is on a blank line, type return to skip it
 *:_S_R_L4

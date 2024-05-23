@@ -853,9 +853,6 @@ I:Let's review the entire alphabet before starting the number keys.
 *:_T_R_L142
 D:abcd efg hijk lmnop qrs tuv wx yz
 
-I:Once more
-*:_T_R_L143
-D:abcdefghijklmnopqrstuvwxyz
 
 I:Use the shift key for each letter (Do not use the CAPS LOCK key)
 *:_T_R_L144
