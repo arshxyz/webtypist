@@ -103,13 +103,17 @@
     // test has ended and a new one hasn't started
     // put actions like Next, Repeat and Exit here
 
+    // DIRTY HACK: sometimes while pressing Enter on the menu
+    // it registers as a keystroke here. There has to be a better
+    // way to handle this. doesn't happen always I can't figure out why
+    if ($charcounter === 0 && e.key === "Enter" && $text[$charcounter] !== "\n") return;
+
     // safari detects escape as a keypress event for some
     // odd reason
     if (e.key === "Escape") return;
     if (!$started || !$typeFocus) return;
     if ($charcounter === 0) startTimestamp.set(new Date());
-    // let curLetter = $text[$charcounter]
-    // let curKey = e.key
+
     if (e.key === $text[$charcounter] || ($text[$charcounter] === "\n" && e.key === "Enter")) {
       //TODO: typeahead and typebefore error recognition
       // if we are correcting a letter, we want
