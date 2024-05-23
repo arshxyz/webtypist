@@ -41,6 +41,7 @@
     runTilBlocking();
   }
   onMount(() => {
+    showWarning = (window.innerHeight < 600 || window.innerWidth < 800)
     window.addEventListener("resize", () => {
       showWarning = (window.innerHeight < 600 || window.innerWidth < 800)
     })
