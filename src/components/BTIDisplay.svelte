@@ -26,7 +26,7 @@
 </div>
 {#if action && action.type !== DRILL}
   <div id="nav">
-    <button class="inlineBtn" on:click={onComplete}>(N)ext → </button>
+    <button class="inlineBtn" on:click={onComplete}>Next (N) → </button>
   </div>
 {/if}
 

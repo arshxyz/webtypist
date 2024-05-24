@@ -163,9 +163,9 @@
   {/if}
   {#if $ended && !$started}
     <div id="drillNav">
-      <button class="inlineBtn" on:click={startTest}>↺ (R)estart</button>
+      <button class="inlineBtn" on:click={startTest}>↺ Restart (R)</button>
       {#if !failed}
-        <button class="inlineBtn" on:click={onComplete}>(N)ext →</button>
+        <button class="inlineBtn" on:click={onComplete}>Next (N) →</button>
       {:else}
         <div id="errorWarning">Error rate > {($maxError * 100).toFixed(1)}%, restart</div>
       {/if}

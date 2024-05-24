@@ -22,6 +22,7 @@
     ["s.typ", "Speed Drills (s) Series"],
     ["p.typ", "Programmer (p) Series"],
     ["u.typ", "QWERTY review (u) Series"],
+    ["t.typ", "QWERTY (t) series"]
     // ["gtypist.typ", "All in 1"],
   ];
   let specialKbTyps = [
