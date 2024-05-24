@@ -77,8 +77,25 @@
     if (e.key === "Escape") restart();
     // backspace
     if (e.key === "Backspace") {
-      if ($charcounter > 0) decrement();
+      if (e.ctrlKey || e.altKey) {
+        let newCharCounter = $charcounter;
+
+        // Skip over any initial whitespace
+        while (newCharCounter > 0 && $text[newCharCounter - 1].trim() === '') {
+            newCharCounter--;
+        }
+
+        // Then find the start of the word
+        while (newCharCounter > 0 && $text[newCharCounter - 1].trim() !== '') {
+            newCharCounter--;
+        }
+
+        charcounter.set(newCharCounter)
+      }
+      else if ($charcounter > 0) decrement();
+      
     }
+
   };
 
   onMount(() => {
