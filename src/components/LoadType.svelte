@@ -46,6 +46,11 @@
     window.addEventListener("resize", () => {
       showWarning = (window.innerHeight < 600 || window.innerWidth < 800)
     })
+
+    document.addEventListener("keydown", (e) => {
+      if (showMainMenu && e.key === 'f') document.querySelector("body").requestFullscreen();
+    })
+
     document.addEventListener("keypress", (e) => {
       if (e.key === "Enter" || e.key === "n") {
         // if action is drill or query or menu, let their event handlers handle the event
