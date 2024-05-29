@@ -17,12 +17,12 @@
   let showBti = true;
   let showMainMenu = true;
   let qwertyTyps = [
-    ["q.typ", "Quick QWERTY (q) Series"],
-    ["r.typ", "Long QWERTY (r) Series"],
-    ["s.typ", "Speed Drills (s) Series"],
-    ["p.typ", "Programmer (p) Series"],
-    ["u.typ", "QWERTY review (u) Series"],
-    ["t.typ", "QWERTY (t) series"]
+    ["q2.typ", "Quick QWERTY (q) Series"],
+    ["r2.typ", "Long QWERTY (r) Series"],
+    ["s2.typ", "Speed Drills (s) Series"],
+    ["p2.typ", "Programmer (p) Series"],
+    ["u2.typ", "QWERTY review (u) Series"],
+    ["t2.typ", "QWERTY (t) series"]
     // ["gtypist.typ", "All in 1"],
   ];
   let specialKbTyps = [
